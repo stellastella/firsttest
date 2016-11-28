@@ -20,3 +20,4 @@ var myApp = require('../app/getPrimes.js');
       });
 
     });
+  });
