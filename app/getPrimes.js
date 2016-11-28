@@ -9,7 +9,7 @@ isPrime: function isPrime(number) {
 },
 getPrimes: function (n){
  var prime=[];
- for(var i = 2; i < n; i++){
+ for(var i = 2; i <= n; i++){
    if (this.isPrime(i))
      prime.push(i);
   }
